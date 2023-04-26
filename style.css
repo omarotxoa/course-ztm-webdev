@@ -7,4 +7,10 @@
 img {
     width: 450px;
     height: 300px;
+    margin: 1em;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
